@@ -1,0 +1,17 @@
+ @import url("https://fonts.googleapis.com/css?family=Open+Sans"); 
+
+/* 
+form button {
+  height: 30px;
+  line-height: 30px;
+  background: #e67e22;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+} */
+form .error {
+  color: #ff0000;
+}
+
