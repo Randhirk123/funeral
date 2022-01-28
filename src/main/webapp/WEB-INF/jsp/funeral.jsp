@@ -318,7 +318,7 @@
 														<div class="col-sm-6">
 															<div class="mb-1">
 																<label for="postCode" class="form-label mb-0 d-none">Mobile Number</label>
-																<input type="tel" class="form-control form-control-sm" id="postCode" name="postCode" placeholder="Enter a postcode">
+																<input type="text" class="form-control form-control-sm" id="postCode" name="postCode" placeholder="Enter a postcode">
 															</div>
 														</div>
 														<div class="col-sm-6">
