@@ -35,11 +35,10 @@
   <header id="header" class="fixed-top d-flex align-items-center">
   <div class="container d-flex justify-content-between align-items-center">
     <div class="logo">
-      <h1><a href="/funeral"> Golden Funerals</a></h1>
+      <h1><a href="/admin"> Admin</a></h1>
       
       <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--> 
     </div>
-    <nav id="navbar" class="navbar"> <a href="#" class="btn btn-primary">GET A FREE QUOTE</a> </nav>
     <!-- .navbar --> 
     
   </div>
@@ -62,56 +61,20 @@
 
       </div>
 		
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-12">
-            <div class="row justify-content-center">
-              <div class="col-md-7 text-center hero-text">
-                <h1 data-aos="fade-up" data-aos-delay="">Thank You</h1>
-                <p class="mb-5" data-aos="fade-up" data-aos-delay="100"> For Your Interest, One Of Our Team Member Will Call You Soon.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
     </section>
-
+<a href="/downloadExcelFile" class="btn btn-primary">Download Excel File</a>
+<a href="/logout" class="btn btn-primary">Logout</a>
  
  
     
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer class="footer" role="contentinfo">
-  <div class="container">
-    <div class="row text-center text-lg-start">
-      <div class="col-12 col-lg-8">
-        <div class="row">
-          <div class="col-md-6 mb-4 mb-md-0">
-            <p>Golden  Funerals are not a funeral Cover company and do not provide the Cover. We put you in touch with the Cover experts who help you get the funeral quote you deserve.</p>
-          </div>
-          <div class="col-md-6 mb-4 mb-md-0">
-            <p>Civanta Media Limited is a Company registered in England under company number 13667719.Registered address: Kemp House 160, City Road, London, EC1V 2NX Email address: info@civantamedia.co.uk </p>
-          </div>
-          
-        </div>
-        <p class="social"> <a href="#"><span class="bi bi-twitter"></span></a> <a href="#"><span class="bi bi-facebook"></span></a> <a href="#"><span class="bi bi-instagram"></span></a> <a href="#"><span class="bi bi-linkedin"></span></a> </p>
-        <div class="row justify-content-center">
-          <div class="col-md me-md">
-            <p class="copyright">&copy; Copyright Civanta Media Limited. All Rights Reserved</p>
-          </div>
-          <div class="col-md-auto">
-            <p class="copyright"><a href="/privacy">Privacy Policy</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/aos/aos.js"></script>

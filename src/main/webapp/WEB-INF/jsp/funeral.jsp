@@ -330,7 +330,7 @@
 															<div class="mb-1">
 																<label for="address" class="form-label d-none">Select a address</label>
 																<select class="form-select form-select-sm" id="address" name="address">
-																<option value="" id="setAddr" >- Select Address -</option>
+																<option value="" >- Select Address -</option>
 																</select>
 															</div>
 														</div>
@@ -524,16 +524,25 @@
         // selector has to be . for a class name and # for an ID
         $('#call').click(function(e) {
             e.preventDefault(); // prevent form from reloading page
+            var postcode= $("#postCode").val()
             
-
             $.ajax({
             	type : 'GET',
 				url : '${req.getContextPath()}/address/',
 				data : {
-					"id" : 1,
+					"id" : postcode,
 				},
                 success : function(data) {
-                		  $("#setAddr").text(data);
+                		  //$("#setAddr").text(data);
+                			 var html = "";
+                		  $.each( data, function( key, value ) {
+									
+                			  html += "<option value='"+value+"'>"+value+"</option>";
+
+                                  
+                              });
+                		  $('#address').html(html);
+                		  
                 		
                 }
             });
